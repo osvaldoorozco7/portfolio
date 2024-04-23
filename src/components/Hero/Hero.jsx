@@ -3,7 +3,7 @@ import './Hero.css'
 
 function Hero() {
   return (
-    <section className='hero-container'>
+    <section className='hero-container' id='home'>
       <div className='hero-content'>
         <h2>Building the future</h2>
         <p>
@@ -14,15 +14,14 @@ function Hero() {
 
       <div className="hero-img">
         <div>
+          <img className='imagen' src="./images/vengeance.jpg" alt="hero" />
+        </div>
 
+        <div className='techs'>
           <div className="tech-icon">
             <img src="./images/react-logo.png" alt="react_logo" />
           </div>
 
-          <img className='imagen' src="./images/vengeance.jpg" alt="hero" />
-        </div>
-
-        <div>
           <div className="tech-icon">
             <img src=".\images\html-logo.svg" alt="html-logo" />
           </div>
