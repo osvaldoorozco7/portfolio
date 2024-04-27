@@ -7,14 +7,9 @@ const SkillsInfoCard = ({heading, skills}) => {
 
       <div className='skills-info-content'>
         {skills.map((item, index) => (
-          <React.Fragment key={`skill_${index}`}>
-            <div className='skill-info'>
-              <p>{item.skill}</p>
-              <p className='percentage'>{item.percentage}</p>
-            </div>
-          
-            <div className='skill-progress-bg'>
-              <div className='skill-progress' style={{ width: item.percentage }} />
+          <React.Fragment key={`skill_${index}`}>          
+            <div className='icon-container'>
+              <img className='icon' src={item.skill} alt="" />
             </div>
           </React.Fragment>
         ))}

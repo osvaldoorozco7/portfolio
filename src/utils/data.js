@@ -3,9 +3,11 @@ export const SKILLS = [
         title: "Frontend",
         icon: "./assets/frontend-icon.png" ,
         skills: [
-            {skill: "HTML5", percentage: "80%"},
-            {skill: "CSS3", percentage: "90%"},
-            {skill: "React.js", percentage: "80%"}
+            {skill: "./images/html-logo.svg"},
+            {skill: "./images/css-logo.svg"},
+            {skill: "./images/javascript-logo.svg"},
+            {skill: "./images/react-logo.png"},
+            {skill: "./images/bootstrap-logo.svg"}
         ]
     },
 
@@ -13,8 +15,9 @@ export const SKILLS = [
         title: "Backend",
         icon: "./assets/backend-icon.png" ,
         skills: [
-            {skill: "Java", percentage: "30%"},
-            {skill: "JavaScript", percentage: "20%"},
+            {skill: "./images/java-logo.png"},
+            {skill: "./images/spring-logo.svg"},
+            {skill: "./images/mysql-logo.svg"}
         ]
     },
 
@@ -22,50 +25,54 @@ export const SKILLS = [
         title: "Tools",
         icon: "./assets/tools-icon.png" ,
         skills: [
-            {skill: "Git & Github", percentage: "100%"},
-            {skill: "Visual Studio Code", percentage: "70%"},
+            {skill: "./images/git-logo.svg"},
+            {skill: "./images/github-icon.png"},
+            {skill: "./images/netlify-logo.svg"},
+            {skill: "./images/vscode-logo.svg"},
         ]
     },
 
-    {
-        title: "Soft skills",
-        icon: "./assets/softskills-icon.png" ,
-        skills: [
-            {skill: "Problem-solving", percentage: "350%"},
-            {skill: "Collaboration", percentage: "90%"},
-            {skill: "Attention to detail", percentage: "75%"},
-        ]
-    },
+
 ];
 
 export const WORK_EXPERIENCE = [
     {
-        title:"Electromechanical Engineer",
-        date: " March 2021 - Present",
-        responsibilities: [
-            "Maintenance",
-            "HVAC systems",
-            "Daily reports"
-        ]
+        title:"Celuma Web Page",
+        technologies: [
+            {tech: "./images/html-logo.svg"},
+            {tech: "./images/css-logo.svg"},
+            {tech: "./images/javascript-logo.svg"},
+            {tech: "./images/bootstrap-logo.svg"},
+            {tech: "./images/java-logo.png"},
+            {tech: "./images/spring-logo.svg"},
+            {tech: "./images/mysql-logo.svg"},
+        ],
+        description: "Wellcome to Celuma where every jar holds a touch of magic for your skin. Our potions are brewed with love and science to transform your complexion into a canvas of radiance. Say hello to a world where skincare meets sorcery, and let your inner glow shine brighter than any spell!",
+        url: 'https://codemonkey-click-counter.netlify.app/',
+        preview: './images/celuma-logo.svg'
     },
 
     {
-        title:"Junior Full Stack Web Dev",
-        date: "March 2021 - Present",
-        responsibilities: [
-            "Assist in e-commerce platform fevelopment",
-            "Implemented advanced CSS animations and trnasitions",
-            "Work closely with the design team to create excel web sites"
-        ]
+        title:"Encrypter",
+        technologies: [
+            {tech: "./images/html-logo.svg"},
+            {tech: "./images/css-logo.svg"},
+            {tech: "./images/javascript-logo.svg"},
+        ],
+        description: "From messages to your mistress to government top-secret projects, everything is under wrap with this app, you only need to write your message and choose between encrypt or decrypt with a single button.",
+        url: 'https://codemonkey-encriptador.netlify.app/',
+        preview: './images/encrypter.png'
     },
 
     {
-        title:"Code Monkey CEO",
-        date: "May 2023 - Present",
-        responsibilities: [
-            "Led a team of frontend developers in the design of an e-commerce",
-            "Conducted performance optimization tasks",
-            "Developed and maintained websites, ensuring high-quality standards"
-        ]
+        title:"To do list",
+        technologies: [
+            {tech: "./images/react-logo.png"},
+            {tech: "./images/html-logo.svg"},
+            {tech: "./images/css-logo.svg"},
+        ],
+        description: "Never forget what you've got to do with this list. Created using React you can dynamically add, delete and mark as completed tasks.",
+        url: 'https://codemonkey-lista-de-tareas.netlify.app/',
+        preview: './images/to-do-list.png'
     },
 ];

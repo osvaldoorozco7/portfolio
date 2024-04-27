@@ -12,6 +12,8 @@ function Skills() {
     setSelectedSkill(data)
   };
 
+
+
   return (
     <div>
       <section className='skills-container' id='skills'>
@@ -26,7 +28,7 @@ function Skills() {
               title={item.title}
               isActive={selectedSkill.title === item.title}
               onClick={() => {
-                handleSelectedSkill(item);
+                handleSelectedSkill(item);;
               }}
               />
             ))}

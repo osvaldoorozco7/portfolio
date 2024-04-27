@@ -17,6 +17,7 @@ const ContactMe = () => {
           <ContactInfoCard
           iconUrl={'./images/github-icon.png'}
           text={'https://github.com/osvaldoorozco7'}
+          url={'https://github.com/osvaldoorozco7'}
           />
         </div>
 
