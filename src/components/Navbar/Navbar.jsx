@@ -32,8 +32,8 @@ const Navbar = () => {
                             <a className="menu-item" href="#contact">Contact me</a>
                         </li>
 
-                        <button className="contact-btn" onClick={() => {}}>
-                        Resume
+                        <button className="contact-btn">
+                            <a href="public\resume.pdf" download>Resume</a>
                         </button>
                     </ul>
 
