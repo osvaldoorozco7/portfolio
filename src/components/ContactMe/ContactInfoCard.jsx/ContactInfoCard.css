@@ -10,6 +10,7 @@
     margin-bottom: 2rem;
 }
 
+
 .contact-details-card .icon {
     width: 4rem;
     height: 4rem;
@@ -17,8 +18,12 @@
     align-items: center;
     justify-content: center;
     border-radius: 0.5rem;
-    background: #3d3072;
+    border: 2px solid #3d3072;
     margin-bottom: 0.8rem;
+}
+
+.contact-details-card .icon:hover {
+    background: #6751b9;
 }
 
 .icon img {
@@ -30,4 +35,10 @@
 .contact-details-card p {
     font-size: 0.9rem;
     font-weight: 400;
+}
+
+@media screen and (max-width: 425px) {
+    .contact-details-card p {
+        font-size: 0.7rem;
+    }
 }

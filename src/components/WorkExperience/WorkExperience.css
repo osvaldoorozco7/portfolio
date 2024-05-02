@@ -64,3 +64,14 @@
         right: -1rem;
     }
 }
+
+@media (max-width: 425px) {
+
+    .arrow-left {
+        left: -2rem;
+    }
+
+    .arrow-right {
+        right: -2rem;
+    }
+}

@@ -51,9 +51,7 @@
 }
 
 @media (max-width: 1025px) {
-    .skills {
-        padding-left: 1rem;
-    }
+
 
     .skills, .skills-content {
         grid-gap: 2rem;
@@ -82,8 +80,13 @@
     }
 }
 
-@media (max-width: 600px) {
-    .skills-container {
-        padding: 0;
+@media (max-width: 425px) {
+
+    .skills-content {
+        justify-content: center;
+    }
+
+    .skills-card {
+        margin: 0;
     }
 }

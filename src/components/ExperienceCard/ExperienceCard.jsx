@@ -6,19 +6,20 @@ const ExperienceCard = ({details}) => {
       <h6>{details.title}</h6>
 
       <div className='work-experience-description-container'>
-        {details.description}
-
         <a href={details.url}>
           <img className='preview' src={details.preview} alt="" />
         </a>
 
+        <div className='description-container'>
+          {details.description}
+        </div>
       </div>
 
-      <div>
+      <div className='icons-container'>
         {details.technologies.map((item, index) => (
           <React.Fragment key={`tech_${index}`}>
             <div className='icon-container'>
-              <img className='icon' src={item.tech} alt="" />
+              <img className='experience-card-icon' src={item.tech} alt="" />
             </div>
           </React.Fragment>
         ))}

@@ -22,18 +22,19 @@
     height: 15rem;
     margin: 0.5rem;
     border-radius: 2rem;
-
 }
 
-.icon-container {
-    display: inline-block;
-    width: 2rem;
-    margin-top: 1rem;
-    padding-right: 4rem;
-
+.icons-container {
+    display: flex;
+    margin: 1rem auto;
+    gap: 2rem;
 }
 
-.icon {
+.experience-card-icon {
+    width: 1.5rem;
+}
+
+.experience-card-icon {
     width: 3rem;
     height: auto;
 }
@@ -52,16 +53,40 @@
     }
 }
 
-@media (max-width:375px) {
-    .work-experience-card {
-        gap: 2rem;
+@media (max-width:425px) {
+    .work-experience-description-container {
+        display: block;
+        text-align: center;
+        font-size: 0.8rem;
     }
 
-    .work-experience-card h6 {
-        font-size: 0.95rem;
+    .description-container {
+        display: block;
+        justify-content: left;
     }
 
-    .work-experience-card ul li {
-        font-size: 0.7rem;
+    .preview {
+        display: block;
+        margin: 1rem auto;
+        width: 100%;
+        height: auto;
+        border-radius: 5%;
     }
+
+    .icons-container {
+        display: grid;
+        grid: auto-flow / 1fr 1fr 1fr 1fr;
+        margin: 1rem auto;
+    }
+
+    .icon-container {
+        justify-content: center;
+        align-items: center;
+        margin-top: 1rem;
+    }
+
+    .experience-card-icon {
+        width: 1.5rem;
+    }
+
 }

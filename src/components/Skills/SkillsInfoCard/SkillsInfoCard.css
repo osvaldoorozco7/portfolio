@@ -1,5 +1,5 @@
 .skills-info-card {
-    min-height: 23rem;
+    min-height: auto;
     border-radius: 0.65rem;
     border: 1.5px solid #6751b9;
     background: rgba(22, 17, 47, 0.398);
@@ -33,8 +33,8 @@
     display: flex;
     width: 5rem;
     height: auto;
-    justify-content: center;
-    align-items: center;
+    justify-self: center;
+    align-self: center;
     opacity: 0;
     animation: fadeIn 1s ease forwards;
 }
@@ -48,13 +48,13 @@
     }
 }
 
-.icon {
-    width: 5rem;
-    height: 5rem;
+.skills-info-card-icon {
+    width: 3rem;
+    height: auto;
     transition: all 0.3s ease;
 }
 
-.icon:hover {
+.skills-info-card-icon:hover {
     transform: translateY(-0.5rem);
 }
 
@@ -70,5 +70,17 @@
 
     .skills-info-content {
         padding: 1.5rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .skills-info-card-icon {
+        width: 2rem;
+    }
+
+    .skills-info-content {
+        display: grid;
+        grid: auto-flow / 1fr 1fr;
+        justify-items: center;
     }
 }

@@ -65,8 +65,23 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
+
+
+    .skills-card {
+        padding: 0.3rem 0.4rem;
+        margin: 0.5rem;
+    }
+
     .skills-card span{
         font-size: 0.6rem;
+    }
+
+    .skill-icon {
+        opacity: 0;
+    }
+
+    .skill-icon > img {
+        opacity: 0;
     }
 }

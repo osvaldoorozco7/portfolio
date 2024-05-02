@@ -9,7 +9,7 @@ const SkillsInfoCard = ({heading, skills}) => {
         {skills.map((item, index) => (
           <React.Fragment key={`skill_${index}`}>          
             <div className='icon-container'>
-              <img className='icon' src={item.skill} alt="" />
+              <img className='skills-info-card-icon' src={item.skill} alt="" />
             </div>
           </React.Fragment>
         ))}

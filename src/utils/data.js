@@ -48,8 +48,8 @@ export const WORK_EXPERIENCE = [
             {tech: "./images/mysql-logo.svg"},
         ],
         description: "Welcome to Celuma where every jar holds a touch of magic for your skin. Our potions are brewed with love and science to transform your complexion into a canvas of radiance. Say hello to a world where skincare meets sorcery, and let your inner glow shine brighter than any spell!",
-        url: 'https://codemonkey-click-counter.netlify.app/',
-        preview: './images/celuma-logo.svg'
+        url: 'https://ozcota96.github.io/celuma-web-page/index/index.html',
+        preview: './images/celuma.png'
     },
 
     {

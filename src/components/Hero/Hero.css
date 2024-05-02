@@ -160,39 +160,13 @@
     }
 }
 
-@media screen and (max-width:600px) {
-    .hero-content h2{
-        font-size: 2.2rem;
-        line-height: 3rem;
+@media screen and (max-width: 425px) {
+
+    .hero-content h2 {
+        font-size: 1rem;
+        margin-top: 1rem;
     }
-
-    .hero-content p {
-        font-size: 0.8rem;
-        line-height: 1.3rem;
-    }
-
-    .hero-img {
-        gap: 1rem;
-
-    }
-
-    .hero-img > div {
-        gap: 1rem;
-        display:flex;
-    }
-
     .hero-img > div > img {
-        width: 16rem;
-    }
-
-
-    .tech-icon {
-        width: 3.3 rem;
-        height: 3.3rem;
-        flex: 0 0 calc(50% - 10px);
-    }
-
-    .tech-icon img {
-        width: 2rem;
+        width: 10rem;
     }
 }
