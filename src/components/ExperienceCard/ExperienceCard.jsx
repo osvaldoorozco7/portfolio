@@ -18,7 +18,7 @@ const ExperienceCard = ({details}) => {
       <div className='icons-container'>
         {details.technologies.map((item, index) => (
           <React.Fragment key={`tech_${index}`}>
-            <div className='icon-container'>
+            <div className='experience-icon-container'>
               <img className='experience-card-icon' src={item.tech} alt="" />
             </div>
           </React.Fragment>

@@ -73,7 +73,7 @@
     }
 }
 
-@media (max-width: 425px) {
+@media screen and (max-width: 425px) {
     .skills-info-card-icon {
         width: 2rem;
     }
@@ -83,4 +83,5 @@
         grid: auto-flow / 1fr 1fr;
         justify-items: center;
     }
+
 }
