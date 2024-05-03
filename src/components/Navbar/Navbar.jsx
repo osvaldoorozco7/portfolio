@@ -23,6 +23,9 @@ const Navbar = () => {
                             <a className="menu-item" href="#home">Home</a>
                         </li>
                         <li>
+                            <a className="menu-item" href="#about">Home</a>
+                        </li>
+                        <li>
                             <a className="menu-item" href="#skills">Skills</a>
                         </li>
                         <li>

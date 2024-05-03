@@ -39,17 +39,75 @@
     height: auto;
 }
 
-@media (max-width:768px) {
-    .work-experience-card {
-        margin: 1rem;
-    }
-
-    .work-experience-card h6 {
-        font-size: 0.95rem;
-    }
-
-    .work-experience-card ul li {
+@media (max-width:1024px) {
+    .work-experience-description-container {
+        display: block;
+        text-align: center;
         font-size: 0.7rem;
+    }
+
+    .description-container {
+        display: block;
+        justify-content: left;
+    }
+
+    .preview {
+        display: block;
+        margin: 1rem auto;
+        width: 80%;
+        height: auto;
+        border-radius: 5%;
+    }
+
+    .icons-container {
+        display: grid;
+        grid: auto-flow / 1fr 1fr 1fr;
+        margin: 0.5rem auto;
+    }
+
+    .experience-icon-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .experience-card-icon {
+        width: 1.5rem;
+    }
+}
+
+@media (max-width:768px) {
+    .work-experience-description-container {
+        display: block;
+        text-align: center;
+        font-size: 0.7rem;
+    }
+
+    .description-container {
+        display: block;
+        justify-content: left;
+    }
+
+    .preview {
+        display: block;
+        margin: 1rem auto;
+        width: 80%;
+        height: auto;
+        border-radius: 5%;
+    }
+
+    .icons-container {
+        display: grid;
+        grid: auto-flow / 1fr 1fr 1fr;
+        margin: 0.5rem auto;
+    }
+
+    .experience-icon-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .experience-card-icon {
+        width: 1.5rem;
     }
 }
 
@@ -57,7 +115,7 @@
     .work-experience-description-container {
         display: block;
         text-align: center;
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
 
     .description-container {
@@ -75,14 +133,13 @@
 
     .icons-container {
         display: grid;
-        grid: auto-flow / 1fr 1fr 1fr 1fr;
-        margin: 1rem auto;
+        grid: auto-flow / 1fr 1fr 1fr;
+        margin: 0.5rem auto;
     }
 
     .experience-icon-container {
+        display: flex;
         justify-content: center;
-        align-items: center;
-        margin-top: 1rem;
     }
 
     .experience-card-icon {

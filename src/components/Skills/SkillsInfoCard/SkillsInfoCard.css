@@ -18,7 +18,8 @@
 
 .skills-info-content {
     padding: 2rem;
-    display: flex;
+    display: grid;
+    grid: auto-flow / 1fr 1fr;
     gap: 2rem;
 }
 
@@ -69,7 +70,8 @@
     }
 
     .skills-info-content {
-        padding: 1.5rem;
+        display: grid;
+        grid: auto-flow / 1fr 1fr;
     }
 }
 

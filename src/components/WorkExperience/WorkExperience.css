@@ -41,31 +41,37 @@
 }
 
 @media (max-width:1025px) {
+    .experience-container {
+        padding-top: 6rem;
+    }
+
     .arrow-left {
-        left: 0rem;
+        left: -2rem;
     }
 
     .arrow-right {
-        right: 0rem;
+        right: -2rem;
     }
 }
 
 @media (max-width: 768px) {
-    .experience-container h5 {
-        font-size: 1.3rem;
-        margin-bottom: 2rem;
+    .experience-container {
+        padding-top: 6rem;
     }
 
     .arrow-left {
-        left: -1rem;
+        left: -2rem;
     }
 
     .arrow-right {
-        right: -1rem;
-    }
+        right: -2rem;
+    }   
 }
 
 @media (max-width: 425px) {
+    .experience-container {
+        padding-top: 6rem;
+    }
 
     .arrow-left {
         left: -2rem;

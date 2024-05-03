@@ -18,6 +18,10 @@ const MobileNav = ({isOpen, toggleMenu}) => {
                     </li>
 
                     <li>
+                        <a className="menu-item" href="#about">About</a>
+                    </li>
+
+                    <li>
                         <a className="menu-item" href="#skills">Skills</a>
                     </li>
 
@@ -26,7 +30,7 @@ const MobileNav = ({isOpen, toggleMenu}) => {
                     </li>
 
                     <li>
-                        <a className="menu-item" href="contacts">Contact me</a>
+                        <a className="menu-item" href="#contact">Contact me</a>
                     </li>
 
                     <button className="contact-btn" onClick={() => {}}>
