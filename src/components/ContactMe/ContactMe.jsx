@@ -5,10 +5,7 @@ import ContactForm from './ContactForm/ContactForm';
 
 const ContactMe = () => {
 
-  const  [message, setMessage] = useState(null);
-
   const showMessage = () => {
-    setMessage('Email copied!')
     alert('Email copied!')
   }
 
