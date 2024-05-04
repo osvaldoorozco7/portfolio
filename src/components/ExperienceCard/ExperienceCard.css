@@ -14,7 +14,7 @@
 }
 
 .work-experience-description-container {
-    display: flex;
+    display: block;
 }
 
 .preview {
@@ -27,7 +27,7 @@
 .icons-container {
     display: flex;
     margin: 1rem auto;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 .experience-card-icon {

@@ -1,6 +1,7 @@
 .experience-container {
     margin: 4rem 0;
     position: relative;
+    padding-top: 5rem;
 }
 
 .experience-container h5 {
@@ -70,7 +71,7 @@
 
 @media (max-width: 425px) {
     .experience-container {
-        padding-top: 6rem;
+        padding-top: 5rem;
     }
 
     .arrow-left {

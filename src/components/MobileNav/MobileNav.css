@@ -20,6 +20,11 @@
     padding: 2rem;
 }
 
+.mobile-menu-container h1 {
+    margin: 1rem 0;
+    font-size: 2rem;
+}
+
 .mobile-menu.active {
     opacity: 1;
     transform: translateX(0);

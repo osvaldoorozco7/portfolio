@@ -76,6 +76,11 @@
     transition: all 0.3 ease;
 }
 
+.contact-btn > a {
+    color: #fff;
+    text-decoration: none;
+}
+
 .contact-btn:hover {
     color: #a993fe;
     background: #000;

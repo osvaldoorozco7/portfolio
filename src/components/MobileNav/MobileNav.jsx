@@ -33,8 +33,8 @@ const MobileNav = ({isOpen, toggleMenu}) => {
                         <a className="menu-item" href="#contact">Contact me</a>
                     </li>
 
-                    <button className="contact-btn" onClick={() => {}}>
-                        Resume
+                    <button className="contact-btn" download>
+                        <a href="/resume.pdf" download>Resume</a>
                     </button>
                 </ul>
             </div>

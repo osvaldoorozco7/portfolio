@@ -3,6 +3,7 @@
     display:grid;
     justify-content: center;
     align-items: center;
+    padding-top: 3rem;
 }
 .about-container h2 {
     margin: 2rem 0;
