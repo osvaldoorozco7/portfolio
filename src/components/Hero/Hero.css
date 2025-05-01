@@ -62,7 +62,7 @@
 }
 
 .hero-img > div > img {
-    width: 20rem;
+    width: 80%;
     transition: all 0.3s ease;
 }
 
