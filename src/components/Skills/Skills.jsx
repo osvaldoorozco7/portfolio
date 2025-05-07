@@ -8,10 +8,10 @@ function Skills() {
 
   const [selectedSkill, setSelectedSkill] = useState(SKILLS[0]);
 
-  const handleSelectedSkill = (data) => {
-    setSelectedSkill(data)
-  };
 
+  const handleSelectedSkill = (data) => {
+    setSelectedSkill(data);
+  };
 
 
   return (

@@ -3,11 +3,11 @@ export const SKILLS = [
         title: "Frontend",
         icon: "./assets/frontend-icon.png" ,
         skills: [
-            {skill: "./images/html-logo.svg"},
-            {skill: "./images/css-logo.svg"},
-            {skill: "./images/javascript-logo.svg"},
-            {skill: "./images/react-logo.png"},
-            {skill: "./images/bootstrap-logo.svg"}
+            {skill: "./images/html-logo.svg", name: "HTML"},
+            {skill: "./images/css-logo.svg", name: "CSS"},
+            {skill: "./images/javascript-logo.svg", name: "JavaScript"},
+            {skill: "./images/react-logo.png", name: "React"},
+            {skill: "./images/bootstrap-logo.svg", name: "Bootstrap"}
         ]
     },
 
@@ -15,9 +15,9 @@ export const SKILLS = [
         title: "Backend",
         icon: "./assets/backend-icon.png" ,
         skills: [
-            {skill: "./images/java-logo.png"},
-            {skill: "./images/spring-logo.svg"},
-            {skill: "./images/mysql-logo.svg"}
+            {skill: "./images/java-logo.png", name: "Java"},
+            {skill: "./images/spring-logo.svg", name: "Spring"},
+            {skill: "./images/mysql-logo.svg", name: "MySQL"}
         ]
     },
 
@@ -25,10 +25,10 @@ export const SKILLS = [
         title: "Tools",
         icon: "./assets/tools-icon.png" ,
         skills: [
-            {skill: "./images/git-logo.svg"},
-            {skill: "./images/github-icon.png"},
-            {skill: "./images/netlify-logo.svg"},
-            {skill: "./images/vscode-logo.svg"},
+            {skill: "./images/git-logo.svg", name: "Git"},
+            {skill: "./images/github-icon.png", name: "GitHub"},
+            {skill: "./images/netlify-logo.svg", name: "Netlify"},
+            {skill: "./images/vscode-logo.svg", name: "VSCode"},
         ]
     },
 

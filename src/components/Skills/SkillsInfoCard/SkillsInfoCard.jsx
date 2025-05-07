@@ -1,7 +1,9 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './SkillsInfoCard.css';
 
 const SkillsInfoCard = ({heading, skills}) => {
+
+
   return <div className='skills-info-card'>
       <h6>{heading}</h6>
 
@@ -10,6 +12,7 @@ const SkillsInfoCard = ({heading, skills}) => {
           <React.Fragment key={`skill_${index}`}>          
             <div className='skills-icon-container'>
               <img className='skills-info-card-icon' src={item.skill} alt="" />
+              <p>{item.name}</p>
             </div>
           </React.Fragment>
         ))}

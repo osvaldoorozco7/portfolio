@@ -14,9 +14,9 @@ function App() {
       <>
       <Navbar/>
       <div className="container">
+        <Skills/>
         <Hero/>
         <AboutMe/>
-        <Skills/>
         <WorkExperience/>
         <ContactMe/>
         <Footer/>
