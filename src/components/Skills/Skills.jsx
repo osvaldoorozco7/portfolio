@@ -36,8 +36,8 @@ function Skills() {
 
           <div className='skills-info'>
             <SkillsInfoCard
-            heading={selectedSkill.title}
-            skills={selectedSkill.skills}
+              heading={selectedSkill.title}
+              skills={selectedSkill.skills}
             />
           </div>
         </div>
